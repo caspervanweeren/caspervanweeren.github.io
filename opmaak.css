@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+body {
+
+  background-color: azure;
+}
+
 ul {
   list-style-type: none;
   overflow: :focus-visible;
-  background-color:blue;
+  background-color: blu;
 }
 
 li {
@@ -16,16 +17,10 @@ li a {
   display: block;
   color: grey;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 14px;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: lightcyan;
 }
-</style>
-</head>
-<body>
-
-</body>
-</html>
