@@ -5,8 +5,8 @@ body {
 
 ul {
   list-style-type: none;
-  overflow: :hidden;
-  background-color: #333;
+  overflow: blockquote;
+  background-color: lightblue;
 }
 
 li {
