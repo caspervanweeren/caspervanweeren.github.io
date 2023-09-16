@@ -1,12 +1,12 @@
 body {
 
-  background-color: black;
+  background-color: lightskyblue;
 }
 
 ul {
   list-style-type: none;
   overflow: blockquote;
-  background-color: lightblue;
+  background-color: gray;
 }
 
 li {
@@ -15,7 +15,7 @@ li {
 
 li a {
   display: block;
-  color: grey;
+  color: white;
   text-align: center;
   padding: 10px 14px;
   text-decoration: none;
