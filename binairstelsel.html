@@ -60,25 +60,10 @@
            <p>Een binair getal, zoals <strong>10101010</strong>, kan worden omgezet naar een decimaal getal door de waarden van de bits te vermenigvuldigen met de overeenkomstige machten van 2 en ze bij elkaar op te tellen:</p>
            <p>10101010 in binair = (1 * 2^7) + (0 * 2^6) + (1 * 2^5) + (0 * 2^4) + (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0) = 170 in decimaal</p>
        
-           
-    <h2>Binary Bonanza</h2>
-    <p>Voer een binair getal in om naar decimaal te converteren:</p>
-    <input type="text" id="binaryInput">
-    <button onclick="convertBinaryToDecimal()">Converteren</button>
-    <p id="result"></p>
-
-    <script>
-        function convertBinaryToDecimal() {
-            const binaryInput = document.getElementById("binaryInput").value;
-            const decimalResult = parseInt(binaryInput, 2);
-
-            if (!isNaN(decimalResult)) {
-                document.getElementById("result").textContent = `Het decimale equivalent van ${binaryInput} is ${decimalResult}.`;
-            } else {
-                document.getElementById("result").textContent = "Ongeldige invoer. Voer een geldig binair getal in.";
-            }
-        }
-    </script>
+           <br>
+           <iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
+           <!--Hiermee geef ik de mogelijkheid om binairy bonanza te spelen op de pagina zelf-->
+           <br>
         </a>
         </body>
 </html>
