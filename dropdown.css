@@ -31,7 +31,7 @@
 
 .second-level-menu > li
 {
-    position: relative;
+    position: absolute;
     height: 30px;
     background: #999999;
 }
@@ -46,7 +46,7 @@
 
 .top-level-menu > li
 {
-    position: relative;
+    position: absolute;
     float: left;
     height: 30px;
     width: 150px;
